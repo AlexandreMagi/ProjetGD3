@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f64ef2a06d671d14490dfe483122f186, type: 3}
+  m_Name: Sniper
+  m_EditorClassIdentifier: 
+  PointRotationSpeed: 0
+  PointSpeedTransitionHit: 10
+  PointHitSizeBonus: 0
+  PointBaseColor: {r: 1, g: 1, b: 1, a: 1}
+  PointHitColor: {r: 1, g: 0, b: 0, a: 1}
+  PointReculTir: -30
+  PointReculRetourViseur: 2
+  PointBaseSizeViseur: 20
+  PointSpeedIdle: 0
+  PointAmplitudeIdle: 0
+  PointOffsetIdle: 0
+  PointChargedSize: 0
+  PointChargedRotation: 0
+  PointChargedSpeed: 40
+  PointChargedColor: {r: 1, g: 0.97001815, b: 0, a: 1}
+  CircleRotationSpeed: 0
+  CircleSpeedTransitionHit: 10
+  CircleHitSizeBonus: 0
+  CircleBaseColor: {r: 1, g: 1, b: 1, a: 1}
+  CircleHitColor: {r: 1, g: 1, b: 1, a: 1}
+  CircleReculTir: 150
+  CircleReculRetourViseur: 8
+  CircleBaseSizeViseur: 50
+  CircleSpeedIdle: 4
+  CircleAmplitudeIdle: 2
+  CircleOffsetIdle: 0
+  CircleChargedSize: 200
+  CircleChargedRotation: 135
+  CircleChargedSpeed: 40
+  CircleChargedAmplitude: 25
+  CircleChargedColor: {r: 1, g: 0.62562156, b: 0, a: 1}
+  StraightRotationSpeed: 0
+  StraightSpeedTransitionHit: 10
+  StraightHitSizeBonus: 50
+  StraightBaseColor: {r: 1, g: 1, b: 1, a: 1}
+  StraightHitColor: {r: 1, g: 0, b: 0, a: 1}
+  StraightReculTir: 50
+  StraightReculRetourViseur: 8
+  StraightBaseSizeViseur: 100
+  StraightSpeedIdle: 4
+  StraightAmplitudeIdle: 5
+  StraightOffsetIdle: 3
+  StraightChargedSize: 200
+  StraightChargedRotation: 360
+  StraightChargedSpeed: 40
+  StraightChargedAmplitude: 25
+  StraightChargedColor: {r: 1, g: 0.627451, b: 0, a: 1}

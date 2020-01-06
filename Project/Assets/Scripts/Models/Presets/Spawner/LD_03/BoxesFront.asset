@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cc05592b71453343883359dbfdbc436, type: 3}
+  m_Name: BoxesFront
+  m_EditorClassIdentifier: 
+  fEnnemiPerSecond: 5
+  EnnemiPrefab: {fileID: 8647646007319768636, guid: a40a25eb5f27a6d45b1d75a6c61d3a8e,
+    type: 3}
+  iNbEnemiesSpawnable: 5
+  bIsImpulseSpawn: 1
+  v3Direction: {x: 5, y: 0, z: 0}
+  fImpulseForce: 100

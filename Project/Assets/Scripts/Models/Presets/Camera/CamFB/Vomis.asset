@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc6ae183414f57540a7608a4bb75bf11, type: 3}
+  m_Name: Vomis
+  m_EditorClassIdentifier: 
+  CurvesAndValues:
+  - {fileID: 11400000, guid: ae95c18b5248f2f459f8346a34af636e, type: 2}
+  - {fileID: 11400000, guid: 0ca5aa9d6af778f40a8962a1fd92a9ec, type: 2}
+  CamFollowSpeed: 1
+  MaxRotateWhileMoving: 200

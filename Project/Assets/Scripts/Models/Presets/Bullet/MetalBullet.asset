@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94958f90456921a469670e24b980da24, type: 3}
+  m_Name: MetalBullet
+  m_EditorClassIdentifier: 
+  BulletName: Base
+  bIsInstant: 1
+  bAffectedByGravity: 0
+  bExplosionAtImpact: 0
+  bBouncingBullet: 0
+  bPiercingBullet: 0
+  bActivateStopTimeAtImpact: 0
+  bActivateSLowMoAtImpact: 0
+  bDammageFadeWithDistance: 0
+  bStunFadeWithDistance: 0
+  layerMaskHit:
+    serializedVersion: 2
+    m_Bits: 922113
+  nDamage: 50
+  fTimeStopAtImpact: 0
+  fImpulse: 0
+  fBulletMass: 5
+  fExplosionRange: 2.1
+  fExplosionForce: 100
+  ShakePerExplosion: 0
+  fSlowMoPower: 0
+  fSlowMoDuration: 0
+  fSlowMoProbability: 0
+  fDistanceDammageFade: 0
+  fDistanceStunFade: 0
+  nImpactBeforeDie: 1
+  nBounceForce: 1
+  StunValue: 0
+  nPiercingsMax: 6
+  piercedLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  pierceStep: 0.05

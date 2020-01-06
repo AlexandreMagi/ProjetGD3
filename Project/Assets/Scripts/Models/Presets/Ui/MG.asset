@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f64ef2a06d671d14490dfe483122f186, type: 3}
+  m_Name: MG
+  m_EditorClassIdentifier: 
+  PointRotationSpeed: 0
+  PointSpeedTransitionHit: 10
+  PointHitSizeBonus: 0
+  PointBaseColor: {r: 1, g: 1, b: 1, a: 1}
+  PointHitColor: {r: 1, g: 0, b: 0, a: 1}
+  PointReculTir: -30
+  PointReculRetourViseur: 2
+  PointBaseSizeViseur: 30
+  PointSpeedIdle: 0
+  PointAmplitudeIdle: 0
+  PointOffsetIdle: 0
+  CircleRotationSpeed: 0
+  CircleSpeedTransitionHit: 10
+  CircleHitSizeBonus: 0
+  CircleBaseColor: {r: 1, g: 1, b: 1, a: 1}
+  CircleHitColor: {r: 1, g: 1, b: 1, a: 1}
+  CircleReculTir: 100
+  CircleReculRetourViseur: 4
+  CircleBaseSizeViseur: 200
+  CircleSpeedIdle: 4
+  CircleAmplitudeIdle: 20
+  CircleOffsetIdle: 0
+  StraightRotationSpeed: 0
+  StraightSpeedTransitionHit: 10
+  StraightHitSizeBonus: 0
+  StraightBaseColor: {r: 1, g: 1, b: 1, a: 1}
+  StraightHitColor: {r: 1, g: 0, b: 0, a: 1}
+  StraightReculTir: -100
+  StraightReculRetourViseur: 4
+  StraightBaseSizeViseur: 0
+  StraightSpeedIdle: 4
+  StraightAmplitudeIdle: 0
+  StraightOffsetIdle: 3

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1056b47bd04b024b93702333aa50548, type: 3}
+  m_Name: Swarmer
+  m_EditorClassIdentifier: 
+  nBaseHealth: 10
+  nDamage: 5
+  nResistance: -5
+  stunJaugeMax: 0
+  stunJaugeLostPerSecond: 0
+  timeStunned: 0
+  timeStunAllowedAfterFirst: 0
+  nVarianceInPath: 50
+  tTimeBeforeNextPath: 0.05
+  fDistanceBeforeNextPath: 0.8
+  speed: 250
+  upScale: 10
+  distanceToTargetPlayer: 5
+  fDistanceMelee: 3
+  fWaitDuration: 0.3
+  fDistanceBeforeAttack: 4
+  fJumpForce: 80
+  fSpeedMultiplierWhenAttacking: 4

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 86b27dbdc3fe66c4fba46c9f4417a162
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - enemy: {instanceID: 0}
+  - bullet: {instanceID: 0}
+  - BulletPrefabs: {instanceID: 0}
+  - CanonPlacement: {instanceID: 0}
+  - FxPos: {instanceID: 0}
+  - VFX_Trail: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

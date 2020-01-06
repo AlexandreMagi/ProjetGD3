@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c89b0cf950687fb45a718c830faf5873, type: 3}
+  m_Name: Sniper
+  m_EditorClassIdentifier: 
+  PresetName: SNIPER
+  mplayerMod: {fileID: 11400000, guid: e0df169cf20661c448d4d313f5da8547, type: 2}
+  mbulletMod: {fileID: 11400000, guid: 5ab41a8dd7ef39f45a47b738b9091f95, type: 2}
+  muiMod: {fileID: 11400000, guid: 485586e08239dc84987fb4ee26210cb3, type: 2}
+  morbeMod: {fileID: 11400000, guid: 4fe60cae9b7d418488ca0b978cdddf04, type: 2}
+  SpriteOne: {fileID: 21300000, guid: d65cb36d05c66f54aaf8fff8309836ac, type: 3}
+  SpriteTwo: {fileID: 21300000, guid: 688171e94c45c7a429ad8d3bc3da749b, type: 3}
+  SpriteThree: {fileID: 21300000, guid: 3b5d860e871f8c74a9923995ab90631d, type: 3}
+  SpriteLogo: {fileID: 21300000, guid: 9fbf1d4729af47d4981601d2dde49e08, type: 3}
+  ShootSound: Oskur
+  ReloadSound: "J'ai pas cod\xE9 \xE7a encore"
+  EmptySound: Me tapez pas

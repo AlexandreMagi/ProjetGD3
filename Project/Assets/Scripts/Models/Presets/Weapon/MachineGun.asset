@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c89b0cf950687fb45a718c830faf5873, type: 3}
+  m_Name: MachineGun
+  m_EditorClassIdentifier: 
+  PresetName: MACHINE GUN
+  mplayerMod: {fileID: 11400000, guid: 2f569f1d67643a145aa9ec33afbfdc6b, type: 2}
+  mbulletMod: {fileID: 11400000, guid: 872d784d5aa40bd439b7e2e1be95969c, type: 2}
+  muiMod: {fileID: 11400000, guid: 7ebc1ecb3b5deb041a038a9543651ccf, type: 2}
+  morbeMod: {fileID: 11400000, guid: 9eee1661f78117e4f93bf3d406b64d63, type: 2}
+  SpriteOne: {fileID: 21300000, guid: d65cb36d05c66f54aaf8fff8309836ac, type: 3}
+  SpriteTwo: {fileID: 21300000, guid: dd641504db5c8994f96bbbd2bda29448, type: 3}
+  SpriteThree: {fileID: 21300000, guid: dd641504db5c8994f96bbbd2bda29448, type: 3}
+  SpriteLogo: {fileID: 21300000, guid: 71c8f38bd4debe84185b2ffc11e1d1ae, type: 3}
+  ShootSound: Oskur
+  ReloadSound: "J'ai pas cod\xE9 \xE7a encore"
+  EmptySound: Me tapez pas

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc6ae183414f57540a7608a4bb75bf11, type: 3}
+  m_Name: FaceHuger
+  m_EditorClassIdentifier: 
+  CurvesAndValues:
+  - {fileID: 11400000, guid: 41749a8a2983f224da37f9ea23aa1be7, type: 2}
+  - {fileID: 11400000, guid: c8cc280898a45e246b8bef4f4b889ff2, type: 2}
+  CamFollowSpeed: 8
+  MaxRotateWhileMoving: 1

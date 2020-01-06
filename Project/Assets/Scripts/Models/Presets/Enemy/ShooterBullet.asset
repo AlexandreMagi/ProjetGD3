@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11a81d5b39b0b6341b13eaef7ce375aa, type: 3}
+  m_Name: ShooterBullet
+  m_EditorClassIdentifier: 
+  BulletTrajectory:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 4.0895586
+      outSlope: 4.0895586
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.067114934
+    - serializedVersion: 3
+      time: 0.2642428
+      value: 0.787367
+      inSlope: -0.14436996
+      outSlope: -0.14436996
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33025986
+      outWeight: 0.15850824
+    - serializedVersion: 3
+      time: 1.00177
+      value: 0.06577301
+      inSlope: -0.18899845
+      outSlope: -0.18899845
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.47848096
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  BulletRotation:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.34442568
+      outSlope: 0.34442568
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.21895751
+      value: 0.07541459
+      inSlope: 0.07479127
+      outSlope: 0.07479127
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.46471468
+      value: 0.027530491
+      inSlope: 0.06827341
+      outSlope: 0.06827341
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7215512
+      value: 0.11264353
+      inSlope: -0.036574736
+      outSlope: -0.036574736
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -0.40453944
+      outSlope: -0.40453944
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CircleScale:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 43.354233
+      outSlope: 43.354233
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.02955047
+      value: 1.281138
+      inSlope: -0.008204149
+      outSlope: -0.008204149
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 1
+    - serializedVersion: 3
+      time: 0.060364038
+      value: 0.99763155
+      inSlope: -1.7036614
+      outSlope: -1.7036614
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.06689979
+    - serializedVersion: 3
+      time: 0.99279785
+      value: 0.19142151
+      inSlope: -0.3954161
+      outSlope: -0.3954161
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.1200423
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  BulletSpeed: 10
+  RandomSpeedAdded: 2
+  BulletDammage: 10
+  ShakeAtImpact: 10
+  RotationSpeed: 0
+  CircleScaleMultiplier: 0.4
+  bRandomRotationAtStart: 0
+  ExplosionRange: 2
+  ForceAppliedOnImpact: 500
+  StunValue: 1.2
+  BulletName: ShooterBullet
+  TimeBeforeCollisionAreActived: 1
+  RandomFrom: {x: -1, y: 0.2, z: -1}
+  RandomTo: {x: 1, y: 1, z: 1}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c16a7c6f6fe51024e936a64a1709d2cb, type: 3}
+  m_Name: Shooter
+  m_EditorClassIdentifier: 
+  nBaseHealth: 400
+  nDamage: 20
+  nResistance: 50
+  stunJaugeMax: 1
+  stunJaugeLostPerSecond: 1
+  timeStunned: 3
+  timeStunAllowedAfterFirst: 0.5
+  rotationSpeed: 2
+  rotationMinimalBeforeCharge: 1
+  timeWaitBeforeShoot: 1
+  nbShootPerSalve: 3
+  nbBulletPerShoot: 1
+  timeBulletBetweenSalve: 0.2
+  amplitudeMultiplier: 3
+  recoverTime: 3
+  StunRecoil: 300
+  StartColor: {fileID: 2100000, guid: c13e4a47c10e5e34e9084c895c76818e, type: 2}
+  ChargeColor: {fileID: 2100000, guid: 1696ca54c15dc31408857fa7a6b57eec, type: 2}
+  ShotingColor: {fileID: 2100000, guid: d57f18026ad78b649aed5f964c803d93, type: 2}

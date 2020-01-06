@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc6ae183414f57540a7608a4bb75bf11, type: 3}
+  m_Name: BaseMove
+  m_EditorClassIdentifier: 
+  CurvesAndValues:
+  - {fileID: 11400000, guid: 3f3e696ca09e13b4488e4eb903f3e76f, type: 2}
+  - {fileID: 11400000, guid: cdacd7789441f3d4fbf8466abef11b38, type: 2}
+  CamFollowSpeed: 8
+  MaxRotateWhileMoving: 20
+  fFrenquencyGoBackToZero: 1
+  fFrequencyDeccel: 0.02
+  fFovMultiplier: 10
+  fFovSpeed: 1

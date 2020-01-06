@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 680dd01dedc8bc946924deadffcc9aee, type: 3}
+  m_Name: WoodWeapon
+  m_EditorClassIdentifier: 
+  bOneShotAtATime: 1
+  bFireRateIndependantFromTimeScale: 1
+  fFireRate: 11.2
+  fBaseImprecision: 0.015
+  fImprecisionGainPerShot: 0.025
+  fImprecisionLostPerSec: 0.08
+  fMaxImprecision: 0.13
+  ShakePerShot: 5.7
+  ShakePerHit: 10
+  ChargeSpeed: 0.5
+  nBulletPerShoot: 5
+  bMustReload: 0
+  bMustHoldToReload: 0
+  bCanCutReload: 0
+  bBulletPerBullet: 0
+  bReloadResetnBullet: 0
+  fReloadTime: 0
+  nBulletMax: 0
+  gravityCooldown: 0
+  bTriggerGrav: 0

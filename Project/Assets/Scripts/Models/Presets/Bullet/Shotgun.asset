@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94958f90456921a469670e24b980da24, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  BulletName: Shotgun
+  bIsInstant: 1
+  bAffectedByGravity: 0
+  bExplosionAtImpact: 1
+  bExplosionDealsDamage: 0
+  bBouncingBullet: 0
+  bPiercingBullet: 0
+  bActivateStopTimeAtImpact: 0
+  bActivateSLowMoAtImpact: 0
+  bDammageFadeWithDistance: 1
+  bStunFadeWithDistance: 1
+  layerMaskHit:
+    serializedVersion: 2
+    m_Bits: 4609
+  nDamage: 10
+  fTimeStopAtImpact: 0
+  fImpulse: 70
+  fBulletMass: 5
+  fExplosionRange: 4
+  fExplosionForce: 1500
+  ShakePerExplosion: 0
+  fSlowMoPower: 0
+  fSlowMoDuration: 0
+  fSlowMoProbability: 0
+  fDistanceDammageFade: 34.5
+  fDistanceStunFade: 10
+  nImpactBeforeDie: 1
+  nBounceForce: 0
+  StunValue: 0.5
+  nPiercingsMax: 0
+  piercedLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  pierceStep: 0
