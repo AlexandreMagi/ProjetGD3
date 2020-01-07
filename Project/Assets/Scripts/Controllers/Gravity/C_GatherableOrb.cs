@@ -16,8 +16,13 @@ public class C_GatherableOrb : MonoBehaviour
     bool bItemDestroyed = false;
     bool bItemDestroyedCompletly = false;
 
+    [HideInInspector]
+    public bool bInTuto = false;
+
     [SerializeField]
     GameObject GravityOrb = null;
+    [SerializeField]
+    GameObject WiiMoteSprite = null;
 
     // Update is called once per frame
     void Update()
@@ -33,7 +38,7 @@ public class C_GatherableOrb : MonoBehaviour
             GameObject.FindObjectOfType<C_Fx>().OrbGatherableExplosionFinal(transform.position + Vector3.up * 0.9542458f * fCurrentScale);
             Invoke("OrbPreDestroyed", 2.6f);
             Invoke("OrbDestroyed", 2.8f);
-            Invoke("GoToNextSequence", 6f);
+            Invoke("GoToTuto", 4f);
             bItemDestroyed = true;
             CustomSoundManager.Instance.PlaySound(Camera.main.gameObject, "GravityOrbOvercharge_Boosted", false, 1f);
         }
@@ -41,6 +46,8 @@ public class C_GatherableOrb : MonoBehaviour
         {
             GameObject.FindObjectOfType<C_Camera>().AddShake(30f*Time.deltaTime);
         }
+
+
     }
 
     void OrbPreDestroyed()
@@ -57,12 +64,19 @@ public class C_GatherableOrb : MonoBehaviour
         CustomSoundManager.Instance.PlaySound(Camera.main.gameObject, "EquipOrb_Boosted", false, 1f);
     }
 
-    void GoToNextSequence()
+    void GoToTuto()
     {
-        GameObject.FindObjectOfType<C_SequenceHandler>().NextSequence();
+        GameObject.FindObjectOfType<C_Main>().AllowPlayerOrb();
+        bInTuto = true;
+        WiiMoteSprite.SetActive(true);
         GameObject.FindObjectOfType<C_GravOrbReady>().PlayFeedback();
         GameObject.FindObjectOfType<MainFuncTest>().bActivation = true;
         GameObject.FindObjectOfType<MainFuncTest>().ChangeText("PRESS A TO ACTIVATE GRAVITY ORB");
+    }
+
+    public void TutoFinished()
+    {
+        WiiMoteSprite.SetActive(false);
     }
 
     public void PlayerShootOnObjet(float Dmg)

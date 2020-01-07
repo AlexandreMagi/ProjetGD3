@@ -120,6 +120,15 @@ public class C_Main : MonoBehaviour
             {
                 wMod.OnShoot(GetControllerPos(), true);
             }
+
+            if (GameObject.FindObjectOfType<C_GatherableOrb>() && GameObject.FindObjectOfType<C_GatherableOrb>().bInTuto && (Input.GetKeyDown(KeyCode.Mouse1) || wiimoteController.isADown))
+            {
+                GameObject.FindObjectOfType<C_SequenceHandler>().NextSequence();
+                GameObject.FindObjectOfType<C_GatherableOrb>().TutoFinished();
+                Destroy(GameObject.FindObjectOfType<C_GatherableOrb>());
+            }
+
+
             if (Input.mouseScrollDelta.y != 0)
             {
                 //GameObject.FindObjectOfType<C_Weapon>().ChangeWeapon(1);
@@ -365,6 +374,11 @@ public class C_Main : MonoBehaviour
             playerCanOrb = state;
             FindObjectOfType<C_Ui>().CannotShoot(state);
         }
+    }
+
+    public void AllowPlayerOrb()
+    {
+        playerCanOrb = true;
     }
 
     public bool _playerCanOrb()

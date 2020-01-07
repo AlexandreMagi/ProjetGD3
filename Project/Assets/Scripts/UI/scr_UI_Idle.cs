@@ -7,6 +7,7 @@ public class scr_UI_Idle : MonoBehaviour
     ///-----FLOAT
     ///Différence entre les 2
     [SerializeField] float fAmplitude = 0.05f;
+    [SerializeField] float fOffsetAmplitude = 0f;
     ///Vitesse
     [SerializeField] float fSpeed = 1;
     ///Taille de Référence
@@ -34,7 +35,7 @@ public class scr_UI_Idle : MonoBehaviour
     {
         
         ///Changement répétitif de grossissement et rétrécissement
-        transform.localScale = Vector3.one * fScaleRef + Vector3.one * Mathf.Sin(((bIdleIndependantToTimeScale ? Time.realtimeSinceStartup : Time.time) + fDelay) * fSpeed) * (fAmplitude * fScaleRef);
+        transform.localScale = Vector3.one * fScaleRef + Vector3.one * Mathf.Sin(((bIdleIndependantToTimeScale ? Time.realtimeSinceStartup : Time.time) + fDelay) * fSpeed) * (fAmplitude * fScaleRef) + Vector3.one * (fOffsetAmplitude * fScaleRef);
         ///Changement global de taille
         fScaleRef = Mathf.Lerp(fScaleRef, fScaleRefGoTo, (bIndependantToTimeScale ? Time.deltaTime / Time.timeScale : Time.deltaTime) * fSpeedTransitionLerp);
     }
